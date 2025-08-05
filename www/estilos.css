@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+ background-color: #4caf50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#btnUbicacion {
+  width: 100%;
+  padding: 1em;
+  font-size: 1em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#btnUbicacion:hover {
+  background-color: #388e3c;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
